@@ -19,7 +19,7 @@
 
 <br>
 
-**[Mira](https://github.com/UniqueDevJing/Mira)** — RAG 问答的可信护栏
+**[基于 RAG 的可信问答系统](http://114.215.186.113/mira/)** — 可信护栏 · [源码](https://github.com/UniqueDevJing/Mira)
 
 回答里每个数字都要能在检索原文里找到依据，对不上就拒答并附原文。校验层是纯规则实现（AST 白名单求值、禁用 eval），不依赖模型自查。
 
@@ -27,7 +27,7 @@
 
 <br>
 
-**[triagent](https://github.com/UniqueDevJing/triagent)** — 医疗分诊多 Agent 系统
+**[triagent](http://114.215.186.113/triagent/)** — 医疗分诊多 Agent 系统 · [源码](https://github.com/UniqueDevJing/triagent)
 
 急症（红旗）症状由状态机强制短路，不经过模型；分诊与预约 Agent 共享结论，「该去急诊却挂了普通号」会被确定性拦住。
 
