@@ -18,7 +18,7 @@
 
 | Project | What it demonstrates | Core engineering signals |
 |---|---|---|
-| **[CareNexus](https://github.com/UniqueDevJing/health-management-system)** | Safety-first healthcare operations platform with AI triage, report interpretation and appointment preparation | Spring AI · Qwen/DashScope · multi-agent routing · deterministic emergency state machine · SSE · guardrails · audit |
+| **[CareNexus](https://github.com/UniqueDevJing/CareNexus)** | Safety-first healthcare operations platform with AI triage, report interpretation and appointment preparation | Spring AI · Qwen/DashScope · multi-agent routing · deterministic emergency state machine · SSE · guardrails · audit |
 | **[triagent](https://github.com/UniqueDevJing/triagent)** | Reusable multi-agent safety patterns for healthcare workflows | role → capability → tool policy · fail-closed guardrails · replayable decisions · red-team evaluation |
 | **[CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas)** | Agent workflow that turns a product brief into a runnable frontend and verifies it in a real browser | staged orchestration · runtime checks · self-healing loop · visual asset budget · SSE contracts |
 | **[Mira](https://github.com/UniqueDevJing/Mira)** | Evaluation-oriented RAG foundation | hybrid retrieval · reranking · refusal levels · RAG evaluation · latency regression gates |
@@ -76,7 +76,7 @@ AI application engineer, agent engineer or LLM platform roles where I can work o
 
 <div align="center">
 
-[CareNexus](https://github.com/UniqueDevJing/health-management-system) · [triagent](https://github.com/UniqueDevJing/triagent) · [CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas) · [Mira](https://github.com/UniqueDevJing/Mira)
+[CareNexus](https://github.com/UniqueDevJing/CareNexus) · [triagent](https://github.com/UniqueDevJing/triagent) · [CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas) · [Mira](https://github.com/UniqueDevJing/Mira)
 
 <sub>Building useful AI systems, one explicit boundary at a time.</sub>
 
