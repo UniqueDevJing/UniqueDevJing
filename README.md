@@ -18,11 +18,9 @@
 
 | Project | What it demonstrates | Core engineering signals |
 |---|---|---|
-| **[MinutesTrace](https://github.com/UniqueDevJing/minutestrace)** | Evidence-linked AI meeting minutes workspace with human-controlled Agent review | FastAPI · LangGraph · Qwen/DashScope · transcript evidence · review workflow · SSE · exports |
-| **[CareNexus](https://github.com/UniqueDevJing/CareNexus)** | Safety-first healthcare operations platform with AI triage, report interpretation and appointment preparation | Spring AI · Qwen/DashScope · multi-agent routing · deterministic emergency state machine · SSE · guardrails · audit |
-| **[triagent](https://github.com/UniqueDevJing/triagent)** | Reusable multi-agent safety patterns for healthcare workflows | role → capability → tool policy · fail-closed guardrails · replayable decisions · red-team evaluation |
+| **[CareNexus](https://github.com/UniqueDevJing/CareNexus)** | Healthcare operations workspace covering patient triage, safety checks, appointment booking and doctor workflows | Spring Boot · LangChain4j · Qwen/DashScope · SSE · transactional booking · guardrails · audit |
+| **[MinutesTrace](https://github.com/UniqueDevJing/minutestrace)** | Evidence-linked meeting workspace connecting recordings, transcripts, decisions, action items and human approval | FastAPI · LangGraph · Qwen/Paraformer · transcript evidence · review workflow · exports |
 | **[CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas)** | Agent workflow that turns a product brief into a runnable frontend and verifies it in a real browser | staged orchestration · runtime checks · self-healing loop · visual asset budget · SSE contracts |
-| **[Mira](https://github.com/UniqueDevJing/Mira)** | Evaluation-oriented RAG foundation | hybrid retrieval · reranking · refusal levels · RAG evaluation · latency regression gates |
 
 ## What I build
 
@@ -77,7 +75,7 @@ AI application engineer, agent engineer or LLM platform roles where I can work o
 
 <div align="center">
 
-[MinutesTrace](https://github.com/UniqueDevJing/minutestrace) · [CareNexus](https://github.com/UniqueDevJing/CareNexus) · [triagent](https://github.com/UniqueDevJing/triagent) · [CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas)
+[CareNexus](https://github.com/UniqueDevJing/CareNexus) · [MinutesTrace](https://github.com/UniqueDevJing/minutestrace) · [CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas)
 
 <sub>Building useful AI systems, one explicit boundary at a time.</sub>
 
