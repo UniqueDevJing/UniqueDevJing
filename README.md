@@ -18,6 +18,7 @@
 
 | Project | What it demonstrates | Core engineering signals |
 |---|---|---|
+| **[MinutesTrace](https://github.com/UniqueDevJing/minutestrace)** | Evidence-linked AI meeting minutes workspace with human-controlled Agent review | FastAPI · LangGraph · Qwen/DashScope · transcript evidence · review workflow · SSE · exports |
 | **[CareNexus](https://github.com/UniqueDevJing/CareNexus)** | Safety-first healthcare operations platform with AI triage, report interpretation and appointment preparation | Spring AI · Qwen/DashScope · multi-agent routing · deterministic emergency state machine · SSE · guardrails · audit |
 | **[triagent](https://github.com/UniqueDevJing/triagent)** | Reusable multi-agent safety patterns for healthcare workflows | role → capability → tool policy · fail-closed guardrails · replayable decisions · red-team evaluation |
 | **[CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas)** | Agent workflow that turns a product brief into a runnable frontend and verifies it in a real browser | staged orchestration · runtime checks · self-healing loop · visual asset budget · SSE contracts |
@@ -76,7 +77,7 @@ AI application engineer, agent engineer or LLM platform roles where I can work o
 
 <div align="center">
 
-[CareNexus](https://github.com/UniqueDevJing/CareNexus) · [triagent](https://github.com/UniqueDevJing/triagent) · [CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas) · [Mira](https://github.com/UniqueDevJing/Mira)
+[MinutesTrace](https://github.com/UniqueDevJing/minutestrace) · [CareNexus](https://github.com/UniqueDevJing/CareNexus) · [triagent](https://github.com/UniqueDevJing/triagent) · [CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas)
 
 <sub>Building useful AI systems, one explicit boundary at a time.</sub>
 
