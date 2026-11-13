@@ -1,82 +1,52 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=900&color=14B8A6&center=true&vCenter=true&width=820&lines=Hi%2C+I'm+Jing+%F0%9F%91%8B;AI+Agent+%26+Application+Engineer;I+build+AI+systems+with+boundaries%2C+evidence+and+tests." alt="typing" />
+# Jing 的项目主页
 
-### AI 应用与智能体工程师
+面向实际业务场景的软件工程师，关注智能应用、流程自动化、检索系统和可验证的产品体验。
 
-我专注于把 LLM 能力变成可运行、可验证、可审计的产品：有明确边界，有真实工具，有失败降级，也有上线后的观测数据。
-
-[![Projects](https://img.shields.io/badge/Featured%20projects-4-0F766E?style=flat-square)](#-featured-projects)
-[![Focus](https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20RAG%20%7C%20Healthcare-14B8A6?style=flat-square)](#-what-i-care-about)
-[![Open to](https://img.shields.io/badge/Open%20to-AI%20Application%20%26%20Agent%20roles-F59E0B?style=flat-square)](#-what-i-am-looking-for)
+我更在意系统能不能被使用、问题能不能被定位、数据能不能追溯，而不是把功能停留在演示页面。
 
 </div>
 
 ---
 
-## Featured projects
+## 主力项目
 
-| Project | What it demonstrates | Core engineering signals |
-|---|---|---|
-| **[CareNexus](https://github.com/UniqueDevJing/CareNexus)** | Healthcare operations workspace covering patient triage, safety checks, appointment booking and doctor workflows | Spring Boot · LangChain4j · Qwen/DashScope · SSE · transactional booking · guardrails · audit |
-| **[MinutesTrace](https://github.com/UniqueDevJing/minutestrace)** | Evidence-linked meeting workspace connecting recordings, transcripts, decisions, action items and human approval | FastAPI · LangGraph · Qwen/Paraformer · transcript evidence · review workflow · exports |
-| **[CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas)** | Agent workflow that turns a product brief into a runnable frontend and verifies it in a real browser | staged orchestration · runtime checks · self-healing loop · visual asset budget · SSE contracts |
+| 项目 | 项目说明 | 主要内容 |
+| --- | --- | --- |
+| [CareNexus](https://github.com/UniqueDevJing/CareNexus/) | 医院就诊与运营协同系统 | 预问诊、风险提示、预约、医生接诊、病历和后台管理 |
+| [MinutesTrace](https://github.com/UniqueDevJing/minutestrace/) | 会议资料与纪要协同工作台 | 资料导入、转写、证据定位、行动项、复核、版本和导出 |
+| [Mira](https://github.com/UniqueDevJing/Mira/?tab=readme) | 可溯源的检索问答系统 | 文档切分、混合检索、排序、数字校验和来源展示 |
+| [Triagent](https://github.com/UniqueDevJing/triagent/) | 多角色任务协作框架 | 角色权限、工具调用、状态流转、失败兜底和运行记录 |
+| [CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas/) | 从需求到可运行页面的开发工作台 | 项目生成、浏览器验证、运行反馈、版本留痕和自检修复 |
 
-## What I build
+## 我做的事情
 
-```text
-user intent
-    ↓
-bounded agent planner
-    ↓
-typed tools + retrieval + memory
-    ↓
-guardrails / approval boundaries
-    ↓
-observable, testable product behavior
-```
+- 把复杂流程拆成清晰的角色、状态和数据边界。
+- 让模型负责理解和整理，把权限、金额、预约和状态变更交给确定性的服务端逻辑。
+- 为每个重要结论保留来源、操作记录或可复核的中间结果。
+- 用接口测试、浏览器流程和日志确认功能真的跑通。
+- 关注超时、重试、并发、权限校验和异常后的恢复，而不是只验证成功路径。
 
-## What I care about
+## 技术方向
 
-- **Safety boundaries** — especially in healthcare, the system must know what it must not do.
-- **Evidence over confidence** — answers should expose sources, tool results or a clear uncertainty state.
-- **Real verification** — a generated UI is not done until a browser can open it and complete the critical flow.
-- **Cost and latency** — every agent loop needs budgets, timeouts, retries and a useful fallback.
-- **Operational clarity** — decisions, blocked paths and model calls should be inspectable after the fact.
+- Java / Spring Boot / Spring Security / JDBC
+- Python / FastAPI / SQLAlchemy
+- Vue 3 / TypeScript / Vite
+- MySQL / SQLite / H2
+- REST / SSE / WebSocket / Nginx / Docker
+- 阿里云百炼兼容的对话、向量和语音接口
 
-## Technical toolkit
+## 项目选择
 
-<div align="center">
+CareNexus 和 MinutesTrace 是目前重点维护的两个完整产品：一个处理医院业务链路，一个处理会议资料和决策落地。Mira、Triagent 和 CodeCanvas 则分别沉淀检索、协作编排和开发验证能力。
 
-![Java](https://img.shields.io/badge/Java%2017-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring AI](https://img.shields.io/badge/Spring%20AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vue](https://img.shields.io/badge/Vue%203-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+## 联系与交流
 
-</div>
-
-## How I work
-
-1. Define the user outcome and the agent's authority boundary.
-2. Design a typed contract before connecting a model.
-3. Put safety-critical decisions on deterministic code paths.
-4. Add retrieval, tools and memory only where they improve the workflow.
-5. Verify the product with tests, browser flows and runtime evidence.
-
-## What I am looking for
-
-AI application engineer, agent engineer or LLM platform roles where I can work on production workflows—not just demos—including agent orchestration, RAG, evaluation, safety, observability and frontend delivery.
-
-欢迎交流 AI 应用落地、Agent 工程化、医疗智能化和如何把 Demo 变成可靠产品。
+欢迎交流产品工程、智能应用落地、检索系统、流程编排和前后端协作。若你关注的是能上线、能维护、能持续改进的系统，可以从上面的项目开始了解。
 
 <div align="center">
 
-[CareNexus](https://github.com/UniqueDevJing/CareNexus) · [MinutesTrace](https://github.com/UniqueDevJing/minutestrace) · [CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas)
-
-<sub>Building useful AI systems, one explicit boundary at a time.</sub>
+[CareNexus](https://github.com/UniqueDevJing/CareNexus/) · [MinutesTrace](https://github.com/UniqueDevJing/minutestrace/) · [Mira](https://github.com/UniqueDevJing/Mira/?tab=readme) · [Triagent](https://github.com/UniqueDevJing/triagent/) · [CodeCanvas](https://github.com/UniqueDevJing/CodeCanvas/)
 
 </div>
